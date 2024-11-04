@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whole-header, footer {
+    background-color: black;
+    color: white;
+}
+
+#hero-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-links, .hero-sec{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 128px;
+}
+#header-img{
+    width: 640px;
+}
+
+
+/* header */
+.whole-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 1600px;
+}
+.header-link{
+    margin: 0px 16px;
+}
+.header-links{
+    margin-left: auto;
+}
+.header-div{
+    padding: 32px 156px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    margin-right: 32px;
+}
+
+/* information */
+
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px 96px;
+}
+
+.info-container{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    text-align: center;
+    
+}
+.info-img{
+    margin: 8px;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+
+
+/* quote */
+.quote{
+    background-color: #e5e7eb;
+    padding: 128px 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thequote{
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.quoteby{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+/* cta */
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.float-cta{
+    background-color: red;
+    color: #f9faf8;
+    padding: 48px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+}
+
+.cta-bold{
+    font-size: x-large;
+    font-weight: bold;  
+}
+
+#cta-button{
+    margin-left: auto;  
+}
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding: 24px;
+}
