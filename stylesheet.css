@@ -4,7 +4,6 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .whole-header, footer {
@@ -51,22 +50,18 @@ button{
     align-items: center;
 }
 
+#logo{
+    height: 32px;
+}
+
 header{
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    width: 1600px;
-}
-.header-link{
-    margin: 0px 16px;
-}
-.header-links{
-    margin-left: auto;
+    padding: 24px;
 }
 .header-div{
     padding: 32px 156px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-text{
     display: flex;
