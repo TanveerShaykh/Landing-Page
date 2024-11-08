@@ -32,7 +32,7 @@ button{
     background-color: red;
     color: white;
     font-weight: bold;
-    border: 1px solid white;
+    border: 1px solid red;
     border-radius: 8px;
     padding: 16px 24px;
     
@@ -164,6 +164,7 @@ img{
 
 #cta-button{
     margin-left: auto;  
+    border: 1px solid white;
 }
 /* footer */
 
