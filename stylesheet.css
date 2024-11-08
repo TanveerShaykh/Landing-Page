@@ -35,7 +35,7 @@ button{
     border: 1px solid white;
     border-radius: 8px;
     padding: 16px 24px;
-    width: 128px;
+    
 }
 #header-img{
     width: 640px;
@@ -51,7 +51,7 @@ button{
 }
 
 #logo{
-    height: 32px;
+    height: 80px;
 }
 
 header{
@@ -64,10 +64,11 @@ header{
     align-items: center;
 }
 .header-text{
+    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
+    gap: 32px;
+    align-items: center;
     margin-right: 32px;
 }
 
@@ -105,9 +106,12 @@ header{
     width: 160px;
     height: 160px;
     border-radius: 8px;
-    border: 2px solid red;
+    
 }
 
+img{
+    border-radius: 8px;
+}
 
 
 /* quote */
